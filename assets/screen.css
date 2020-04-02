@@ -199,16 +199,26 @@ ul {
   min-height: 60vh;
 }
 
-
 .contentpn{
   max-width: 85vw;
   margin: auto;
   background-color: #fcfcfc;
   border-radius: 1vw;
-  align-items: center;
   margin-top: 15vh;
   margin-bottom: 15vh;
   padding: 3vw;
+}
+
+.stack{
+  text-align: center;
+}
+
+.stack img{
+  height: auto;
+  max-width: 80vw;
+  max-height: 80vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 
 .gallery{
@@ -220,8 +230,8 @@ ul {
 
 }
 .gallery img{
-  margin: 1vw;
-  height: 40vh;
+  margin: 2vw;
+  height: 50vh;
   width: auto;
 }
 
