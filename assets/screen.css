@@ -70,6 +70,15 @@ p, h1, h2, h4, a{
   margin-bottom: 1vh;
 }
 
+p{
+  font-size: 1.5em;
+  text-align: left;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
 /* front page content grid */
 header{
   display: grid;
@@ -207,6 +216,7 @@ ul {
   margin-top: 15vh;
   margin-bottom: 15vh;
   padding: 3vw;
+  text-align: center;
 }
 
 .gallery{
@@ -238,6 +248,11 @@ ul {
 figcaption{
   font-size: 1.5em; /*27/18*/
   padding-bottom: 3vh;;
+}
+section img{
+  width: auto;
+  max-height: 60vh;
+  max-width: 80vw;
 }
 
 /*contact informtaion*/
