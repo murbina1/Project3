@@ -209,18 +209,6 @@ ul {
   padding: 3vw;
 }
 
-.stack{
-  text-align: center;
-}
-
-.stack img{
-  height: auto;
-  max-width: 80vw;
-  max-height: 80vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-}
-
 .gallery{
   display: flex;
   flex-direction: row;
@@ -235,6 +223,22 @@ ul {
   width: auto;
 }
 
+.stack{
+  text-align: center;
+}
+
+.stack img{
+  height: auto;
+  max-width: 80vw;
+  max-height: 80vw;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
+}
+
+figcaption{
+  font-size: 1.5em; /*27/18*/
+  padding-bottom: 3vh;;
+}
 
 /*contact informtaion*/
 footer{
