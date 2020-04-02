@@ -254,6 +254,9 @@ footer{
 h1{
   font-size: 3em; /*36/18*/
 }
+.navigation{
+  font-size: 1.5em; /*24/18*/
+}
 #about{
   flex-wrap: wrap-reverse;
 }
