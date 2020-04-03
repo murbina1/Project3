@@ -92,17 +92,6 @@ header{
 }
 
 
-.homepg{
-  display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-  grid-template-rows: 33vh 34vh 33vh; /*added up to 100*/
-  background-image: url(../SkyBackground.JPG);
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .single{
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
