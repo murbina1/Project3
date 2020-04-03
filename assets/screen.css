@@ -95,7 +95,7 @@ header{
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
   grid-template-rows: 10vh;
-  background-image: url(../SkyBackground.jpg);
+  background-image: url(../SkyBackground.JPG);
   min-height: 10vh;
   background-position: center;
   background-repeat: no-repeat;
