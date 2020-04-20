@@ -129,7 +129,7 @@ a{
   padding-right: .5vw;
   text-transform: uppercase;
   text-align: right;
-  font-size: 1.6666666666667em; /*30/18*/
+  font-size: 1.5em; /*24/18*/
 
 }
 .navlink{
@@ -149,7 +149,7 @@ h1{
   color:#FFFFFF;
   text-align: center;
   align-self: center;
-  font-size: 5em; /*108/18*/
+  font-size: 3em; /*36/18*/
   text-transform: uppercase;
 }
 /*to direct users to scroll down*/
@@ -183,7 +183,7 @@ ul {
   margin-bottom: 15vh;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap-reverse;
   padding: 3vw;
 }
 /*about me content*/
@@ -205,8 +205,8 @@ ul {
   box-sizing: border-box;
   align-items:center;
   padding: 3vh;
-  max-height: 70vh;
-  min-height: 60vh;
+  max-height: 60vh;
+  min-height: 50vh;
 }
 
 .contentpn{
@@ -272,24 +272,24 @@ h3{
   padding: 1vh;
 }
 
-@media screen and (max-aspect-ratio: 9/7), (max-width:700px){
+@media screen and (min-aspect-ratio: 9/7), (min-width:700px){
 h1{
-  font-size: 3em; /*36/18*/
+  font-size: 5em; /*36/18*/
 }
 .navigation{
-  font-size: 1.5em; /*24/18*/
+  font-size: 1.6666666666667em; /*30/18*/
 }
 .about{
-  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
 }
 #abtphoto{
-  max-height: 60vh;
-  min-height: 50vh;
+  max-height: 70vh;
+  min-height: 60vh;
 }
 
 }
 
-@media screen and (max-width:450px){
+@media screen and (min-width:450px){
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -303,6 +303,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  font-size: 12px;
+
+font-size: 18px;
 }
+
 }
