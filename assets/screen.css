@@ -279,7 +279,7 @@ h1{
 .navigation{
   font-size: 1.5em; /*24/18*/
 }
-#about{
+.about{
   flex-wrap: wrap-reverse;
 }
 #abtphoto{
