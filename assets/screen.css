@@ -19,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 12px;
+  font-size: 18px;
   font: inherit;
   vertical-align: baseline;
 /*Font changes*/
@@ -71,7 +71,7 @@ p, h1, h2, h4, a{
 }
 
 p{
-  font-size: 1.3333333333334em; /*24/18*/
+  font-size: 1em; /*24/18*/
   text-align: left;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -129,7 +129,7 @@ a{
   padding-right: .5vw;
   text-transform: uppercase;
   text-align: right;
-  font-size: 1.5em; /*24/18*/
+  font-size: 1.6666666666667em; /*24/18*/
 
 }
 .navlink{
@@ -166,9 +166,7 @@ h1{
   max-width: 5vw;
   max-height: 5vh;
 }
-ul {
-  list-style-type: none;
-}
+
 
 /* about me flexbox */
 /*to restrict flexing area size*/
@@ -192,13 +190,13 @@ ul {
 }
 .abouttitle, h2{
   text-align: center;
-  font-size: 2.5em; /*45/18*/
+  font-size: 1.5em; /*45/18*/
   text-transform: uppercase;
   margin-top: 1.5vw;
   margin-bottom: 1.5vw;
 }
 .abouttext{
-  font-size: 1.6666666666667em; /*30/18*/
+  font-size: 1em; /*30/18*/
 }
 /*about me image*/
 #abtphoto{
@@ -247,7 +245,7 @@ ul {
 }
 
 figcaption{
-  font-size: 1.5em; /*27/18*/
+  font-size: 1em; /*27/18*/
   padding-bottom: 3vh;;
 }
 section img{
@@ -263,22 +261,17 @@ footer{
   background: #FFFFFF;
   text-align: center;
   margin-top: 5vw;
-  font-size: 1.5em; /*27/18*/
+  font-size: 1em; /*27/18*/
 }
 
 h3{
-  font-size: 1.5em; /*27/18*/
+  font-size: 1em; /*27/18*/
   font-style: italic;
   padding: 1vh;
 }
 
-@media screen and (min-aspect-ratio: 9/7), (min-width:700px){
-h1{
-  font-size: 5em; /*36/18*/
-}
-.navigation{
-  font-size: 1.6666666666667em; /*30/18*/
-}
+@media screen and (min-width:750px){
+
 .about{
   flex-wrap: nowrap;
 }
@@ -286,25 +279,16 @@ h1{
   max-height: 70vh;
   min-height: 60vh;
 }
-
+h1{
+  font-size: 5em; /*36/18*/
 }
-
-@media screen and (min-width:450px){
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-
-font-size: 18px;
+.abouttitle, h2{
+  font-size: 2em;
 }
-
+p, .abouttext{
+font-size: 1.3333333333334em;
+}
+.navigation, figcaption, footer, h3{
+  font-size: 1.5em; /*30/18*/
+}
 }
