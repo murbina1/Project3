@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,13 +24,12 @@ time, mark, audio, video {
 /*Font changes*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  color: #333333;
+  color: #333;
   font-stretch: ultra-condensed;
   letter-spacing: 0;
   word-spacing: 0;
   line-height: 100%;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -39,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 ol, ul {
   list-style: none;
+  list-style-type: none;
 }
 blockquote, q {
   quotes: none;
@@ -59,7 +58,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #CCCCCC;
+  background-color: #CCC;
 }
 /* Fonts and spacing */
 p, h1, h2, h4, a{
@@ -122,7 +121,7 @@ a{
   font-size: 1.6666666666667em; /*24/18*/
 }
 .navlink{
-  color:#FFFFFF;
+  color:#FFF;
   font-weight: 300;
 }
 /*center Molly Urbina font*/
@@ -131,11 +130,11 @@ h1{
   grid-row: 2;
   border: solid;
   border-width: thick;
-  border-color: #FFFFFF;
+  border-color: #FFF;
   padding: 5%;
   letter-spacing:.20em;
   word-spacing:.25em;
-  color:#FFFFFF;
+  color:#FFF;
   text-align: center;
   align-self: center;
   font-size: 3em; /*36/18*/
