@@ -59,6 +59,7 @@ html, body {
   background-color: #CCC;
 }
 
+html, body {
 /* Fonts and Spacing*/
 h1, h2, footer, .abouttitle, .contentpn{
   text-align: center;
@@ -69,6 +70,9 @@ h1, h2, .navigation, .abouttitle{
 h1, h2, h3, h4, p, a, .abouttitle{
   margin: 1vh;
 }
+h1, .navlink{
+  color:#FFF;
+}
 h2, .abouttitle{
   font-size: 1.5em; /*45/18*/
 }
@@ -76,25 +80,18 @@ h1{
   font-size: 3em; /*36/18*/
   letter-spacing:.20em;
   word-spacing:.25em;
-  color:#FFF;
 }
 h3{
   font-style: italic;
 }
 p{
-  text-align: left;
   max-width: 40em;
 }
 a{
   text-decoration: none;
 }
 .navigation{
-  text-align: right;
   font-size: 1.6666666666667em; /*24/18*/
-}
-.navlink{
-  color:#FFF;
-  font-weight: 300;
 }
 
 /* Splash page and navigation */
@@ -107,12 +104,10 @@ header, .single {
   background-size: cover;
 }
 header{
-  grid-template-rows: 33vh 34vh 33vh; /*added up to 100*/
-  min-height: 100vh;
+  grid-template-rows: 33vh 34vh 33vh; /*sum to 100*/
 }
 .single{
   grid-template-rows: 10vh;
-  min-height: 10vh;
 }
 .logo {
   grid-column: 1;
@@ -165,9 +160,6 @@ nav{
   align-items: center;
   flex-wrap: wrap-reverse;
 }
-.aboutwords, .abtphoto{
-  box-sizing: border-box;
-}
 .abtphoto{
   max-height: 50vh;
   min-height: 20vh;
@@ -176,17 +168,10 @@ nav{
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.gallery img{
+.gallery img, section img{
   margin: 2vw;
   max-height: 50vh;
   max-width: 60vw;
-}
-figcaption{
-  padding-bottom: 3vh;;
-}
-section img{
-  max-height: 60vh;
-  max-width: 80vw;
 }
 footer{
   padding: 50px 0;
@@ -194,6 +179,7 @@ footer{
   margin-top: 5vw;
 }
 
+/* Media Queries */
 @media screen and (min-width:800px){
 .abouttext{
   max-width: 35em;
@@ -205,13 +191,13 @@ footer{
 h1{
   font-size: 5em; /*36/18*/
 }
-.abouttitle, h2{
+h2, .abouttitle{
   font-size: 2em;
+}
+h3, figcaption, footer, .navigation{
+  font-size: 1.5em; /*30/18*/
 }
 p, .abouttext{
 font-size: 1.3333333333334em;
-}
-.navigation, figcaption, footer, h3{
-  font-size: 1.5em; /*30/18*/
 }
 }
