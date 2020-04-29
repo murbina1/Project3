@@ -78,7 +78,6 @@ h2, .abouttitle{
 h1{
   font-size: 3em; /*36/18*/
   letter-spacing:.20em;
-  word-spacing:.25em;
 }
 h3{
   font-style: italic;
@@ -128,14 +127,12 @@ nav{
   border: solid;
   border-width: thick;
   border-color: #FFF;
-  padding: 5%;
-  margin: auto;
+  padding: 5vh 2vh;
 }
 .arrow{
   grid-column: 2;
   grid-row: 3;
-  padding-bottom: 3vh;
-  margin: auto auto 0 auto;
+  margin: auto auto 3vh auto;
 }
 .arrow img{
   max-width: 5vw;
